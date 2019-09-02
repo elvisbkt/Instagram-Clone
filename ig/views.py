@@ -2,6 +2,7 @@ from django.shortcuts import render,redirect
 from django.http  import HttpResponse,Http404,HttpResponseRedirect
 from .models import Post
 from .forms import NewArticleForm,NewsLetterForm,RegisterForm
+from .email import send_welcome_email
 from django.contrib.auth.decorators import login_required
 
 # Create your views here.
@@ -13,7 +14,8 @@ def ig_today(request):
         if form.is_valid():
             name = form.cleaned_data['your_name']
             email = form.cleaned_data['email']
-            
+            send_welcome_email(name,email)
+            HttpResponseRedirect('ig_today')
     else:
         form = NewsLetterForm()
     return render(request, 'all-posts/today-ig.html', {"ig":ig,"letterForm":form})
