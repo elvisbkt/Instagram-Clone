@@ -72,7 +72,6 @@ INSTALLED_APPS = [
     'ig',
     'bootstrap3',
     'tinymce',
-    
 
 ]
 
@@ -116,7 +115,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'instag',
-        'USER': 'elvis,
+        'USER': 'elvis',
     'PASSWORD':'tribune',
     }
 }
