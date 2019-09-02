@@ -59,5 +59,8 @@ def register(request):
            email = form.cleaned_data['email']
            send_welcome_email(username,email)
            return redirect('all_posts/today_ig.html')
+   else:
+       form =RegisterForm()
+   return render(request,'registration/registration_form.html',{'form':form})
   
 
