@@ -39,10 +39,9 @@ Behaviour Driven Development
 
 Project Livesite
 -----------------
-https://github.com/elvisbkt/Instagram-clone.git
 
 
-Known Bugs
+https://sheltered-fjord-32197.herokuapp.com/accounts/login/?next=/nown Bugs
 -----------
 No bugs present in the application.
 
