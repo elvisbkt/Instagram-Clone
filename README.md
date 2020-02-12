@@ -24,7 +24,7 @@ Technologies Used
 1. Python3.6
 2. HTML
 3. Django2.
-4. CSS
+
 
 
 Behaviour Driven Development
@@ -40,8 +40,11 @@ Behaviour Driven Development
 Project Livesite
 -----------------
 
+https://kwenyegram.herokuapp.com/accounts/login/?next=/nown 
 
-https://sheltered-fjord-32197.herokuapp.com/accounts/login/?next=/nown Bugs
+https://sheltered-fjord-32197.herokuapp.com/accounts/login/?next=/nown 
+
+Bugs
 -----------
 No bugs present in the application.
 
